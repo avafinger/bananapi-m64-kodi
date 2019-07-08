@@ -30,13 +30,13 @@ This is a WiP (Work in Progress) and intended for testing purpose.
 | gcc version            |       7.3.0               |
 | display                |       hdmi                |
 | graphical interface    |       CLI                 |
-| KODI version           | 19.0-alpha1 / 18.3-rc1    |
-| idle Temp ºC / freq    |   40 ºC / ~120 Mhz   *    |
-| full Temp ºC / freq    |   75 ºC / 1.15 GHz   *    |
+| KODI version           |      18.3-rc1             |
+| idle Temp ºC / freq    |        ? *                |
+| full Temp ºC / freq    |        ? *                |
 | RAM memory usage (avg) |      75   Mbytes          |
 | i2c                    |       ?                   |
 | spi                    |                           |
-| Wifi                   |   brcmfmac43430a0         |
+| Wifi                   |   brcmfmac                |
 | BT                     |       yes                 |
 | ethernet               |       Gbps / 100Mbps      |
 | sound                  |   hdmi-sound              |
@@ -46,3 +46,5 @@ This is a WiP (Work in Progress) and intended for testing purpose.
 |------------------------|---------------------------|
 | issues                 |spdif and analog not works |
 |                        |   Initial tests           |
+|                        |   Board shutdown          |
+|                        |   Thermal readout         |
