@@ -58,4 +58,6 @@ Issues:
   * spdif sound
   * wlan0 works but is lazy to get IP from AP
   
-  
+
+Kodi 18.3-rc1
+![Kodi 2](https://github.com/avafinger/bananapi-m64-kodi/raw/master/kodi.jpg)  
