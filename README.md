@@ -1,6 +1,6 @@
 # Bananapi-m64 running kodi
 
-This is a prebuilt Ubuntu 18.04 minimal image with linux 5.2.0-rc7 to run Kodi.
+This is a prebuilt Ubuntu 18.04 minimal image with mainline linux 5.2.0 to run Kodi.
 
 Kernel features on BananaPi M64:
 
