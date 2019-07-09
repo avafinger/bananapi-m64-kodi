@@ -26,16 +26,16 @@ This is a WiP (Work in Progress) and intended for testing purpose.
 |  SBC Dev Board tested  |    BananaPi M64           |
 |------------------------|---------------------------|
 | KODI version           |      18.3 RC1             |
-| kernel version         |       5.2.0-rc7           |
+| kernel version         |       5.2.0 mainline      |
 | gcc version            |       7.3.0               |
 | display                |       hdmi                |
 | graphical interface    |       CLI                 |
 | KODI version           |      18.3-rc1             |
-| idle Temp ºC / freq    |        ? *                |
-| full Temp ºC / freq    |        ? *                |
-| RAM memory usage (avg) |      75   Mbytes          |
+| idle Temp ºC / freq    |        38ºC *             |
+| full Temp ºC / freq    |        75ºC *             |
+| RAM memory usage (avg) |      85   Mbytes          |
 | i2c                    |       ?                   |
-| spi                    |                           |
+| spi                    |       ?                   |
 | Wifi                   |   brcmfmac                |
 | BT                     |       yes                 |
 | ethernet               |       Gbps / 100Mbps      |
@@ -46,5 +46,16 @@ This is a WiP (Work in Progress) and intended for testing purpose.
 |------------------------|---------------------------|
 | issues                 |spdif and analog not works |
 |                        |   Initial tests           |
-|                        |   Board shutdown          |
-|                        |   Thermal readout         |
+|                        | Board shutdown (seems ok) |
+|                        |   Thermal readout (fix)   |
+
+Updates for Kernel 5.2.0
+  * Thermal issues fixed
+  * frequent rcu stall seems fixed
+  
+Issues:
+  * analog sound
+  * spdif sound
+  * wlan0 works but is lazy to get IP from AP
+  
+  
