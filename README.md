@@ -18,6 +18,9 @@ Tested with  **Kodi 18.3 RC1**
 
 Initial bootlog: https://gist.github.com/avafinger/17600cd3ef6014e3ad3d620a27ac5550
 
+**Image for testing:**
+https://github.com/avafinger/bananapi-m64-kodi/releases/tag/v1.0
+
 # What works and what not (simple table)
 
 This is a WiP (Work in Progress) and intended for testing purpose.
@@ -53,7 +56,7 @@ Updates for Kernel 5.2.0
   * Thermal issues fixed
   * frequent rcu stall seems fixed
   
-Issues:
+Issue:
   * analog sound
   * spdif sound
   * wlan0 works but is lazy to get IP from AP
