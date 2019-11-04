@@ -9,7 +9,6 @@ Kernel features on BananaPi M64:
 * hdmi
 * hdmi-sound
 * wifi
-* bt
 * eth 100 Mbps / Gbps
 * ir
 * v4l2
@@ -28,6 +27,12 @@ https://github.com/avafinger/bananapi-m64-kodi/releases/tag/v1.1
 **NOTE**
 The linux-image was re-uploaded to fix **DTB**
 
+# Kernel 5.3.8 (update to run KODI again)
+
+linux-image: https://github.com/avafinger/bananapi-m64-kodi/releases/tag/v1.2
+
+There is a fix for the board version 1.2. 
+Apply the fix from here:  https://github.com/avafinger/bananapi-m64-kodi/releases/tag/v1.3
 
 # What works and what not (simple table)
 
@@ -37,18 +42,18 @@ This is a WiP (Work in Progress) and intended for testing purpose.
 |  SBC Dev Board tested  |    BananaPi M64           |
 |------------------------|---------------------------|
 | KODI version           |      18.3 RC1             |
-| kernel version         |       5.2.0 mainline      |
-| gcc version            |       7.3.0               |
+| kernel version         |       5.3.8 mainline      |
+| gcc version            |       7.4.1               |
 | display                |       hdmi                |
 | graphical interface    |       CLI                 |
 | KODI version           |      18.3-rc1             |
-| idle Temp ºC / freq    |        38ºC *             |
+| idle Temp ºC / freq    |        45ºC *             |
 | full Temp ºC / freq    |        75ºC *             |
 | RAM memory usage (avg) |      85   Mbytes          |
 | i2c                    |       ?                   |
 | spi                    |       ?                   |
 | Wifi                   |   brcmfmac                |
-| BT                     |       yes                 |
+| BT                     |       no                  |
 | ethernet               |       Gbps / 100Mbps      |
 | sound                  |   hdmi-sound              |
 | ir                     |      yes                  |
@@ -68,6 +73,7 @@ Issue:
   * analog sound
   * spdif sound
   * wlan0 works but is lazy to get IP from AP
+  * Bluetooth
   
 
 Kodi 18.3-rc1
