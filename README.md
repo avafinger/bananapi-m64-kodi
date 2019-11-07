@@ -12,6 +12,7 @@ Kernel features on BananaPi M64:
 * eth 100 Mbps / Gbps
 * ir
 * v4l2
+* i2c
 
 Tested with  **Kodi 18.3 RC1**
 
@@ -34,6 +35,15 @@ linux-image: https://github.com/avafinger/bananapi-m64-kodi/releases/tag/v1.2
 There is a fix for the board version 1.2. 
 Apply the fix from here:  https://github.com/avafinger/bananapi-m64-kodi/releases/tag/v1.3
 
+# Kernel 5.3.9 (i2c)
+
+linux-image: https://github.com/avafinger/bananapi-m64-kodi/releases/tag/v1.4
+
+There is a fix for the I2C, tested with ssd1306
+Testing SSD1306
+![Testing SSD1306](https://github.com/avafinger//bananapi-m64-kodi/raw/master/ssd1306.gif)
+
+
 # What works and what not (simple table)
 
 This is a WiP (Work in Progress) and intended for testing purpose.
@@ -42,7 +52,7 @@ This is a WiP (Work in Progress) and intended for testing purpose.
 |  SBC Dev Board tested  |    BananaPi M64           |
 |------------------------|---------------------------|
 | KODI version           |      18.3 RC1             |
-| kernel version         |       5.3.8 mainline      |
+| kernel version         |       5.3.9 mainline      |
 | gcc version            |       7.4.1               |
 | display                |       hdmi                |
 | graphical interface    |       CLI                 |
